@@ -1,4 +1,40 @@
-* {
-    margin: 0%;
-    border: none;
+/* shared style */
+ body {
+    font-family: "Open Sans", sans-serif;
+ }
+.text-primary {
+    color: #FD6E0A;
+}
+.button-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 15PX 35PX;
+    
+}
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-family: Open Sans;
+    font-weight: 800;
+    word-wrap: break-word
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
